@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="match_parent" android:layout_height="wrap_content">
+
+		<TextView android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:gravity="center_horizontal"
+			android:paddingBottom="5dip" android:singleLine="true"
+			android:textStyle="bold" android:textSize="24sp" android:textColor="#ffdd00"
+			android:text="Event Confirmation" />
+
+
+		<!-- event name -->
+		<TextView android:id="@+id/event_name" android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:gravity="center_horizontal"
+			android:paddingBottom="5dip" android:singleLine="true"
+			android:textStyle="bold" android:textSize="24sp" android:textColor="#ffff00" />
+
+		<!-- Participants: -->
+		<TextView android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:paddingBottom="5dip"
+			android:singleLine="true" android:textStyle="bold" android:textSize="24sp"
+			android:textColor="#ffdd00" android:text="Participants:" />
+
+		<TextView android:id="@+id/confirmed_participant_list"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:paddingBottom="5dip" android:singleLine="false"
+			android:textStyle="bold" android:textSize="22sp" android:textColor="#ffffff"
+			android:gravity="center_horizontal" />
+
+
+		<!-- event result -->
+		<TextView android:id="@+id/event_result"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:paddingBottom="5dip" android:singleLine="true"
+			android:textStyle="bold" android:textSize="30sp" android:textColor="#ffffff" />
+
+
+		<!-- event place -->
+		<TextView android:id="@+id/event_place" android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:paddingBottom="5dip"
+			android:singleLine="true" android:textStyle="bold" android:textSize="24sp"
+			android:textColor="#ffff00" />
+
+		<!-- event time -->
+		<TextView android:id="@+id/event_time" android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:paddingBottom="5dip"
+			android:singleLine="true" android:textStyle="bold" android:textSize="24sp"
+			android:textColor="#ffff00" />
+
+
+
+	</LinearLayout>
+
+</ScrollView>

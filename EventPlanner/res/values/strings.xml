@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, CreateNewEventActivity!</string>
+    <string name="app_name">Event Planner</string>
+    <string name="event_name">Event Name</string>
+    <string name="place1">Place 1</string>
+    <string name="place2">Place 2</string>
+    <string name="time1">Time 1</string>
+    <string name="time2">Time 2</string>
+    <string name="invite">Invite</string>
+    <string name="testing">Test Button</string>
+    <string name="open_contacts">Open Contacts</string>
+    <string name="enter_eventname">enter event name here</string>
+    <string name="clear_contacts">Clear</string>
+    <string name="send_invitation">Send Invitation</string>
+    <string name="select_participants">Select participants</string><string name="creating_new_event">Creating new event</string><string name="alert_dialog_ok">OK</string><string name="alert_dialog_cancel">Cancel</string><color name="blue">#0000ff</color>
+    <string name="date1">Date 1</string>
+    <string name="date2">Date 2</string>
+    <string name="start_service">Start Service</string>
+    <string name="stop_service">Stop Service</string>
+    <string name="Help_text">User can start/stop background service, create and send new event to friends, send voting, and confirm the event.</string>
+    <string name="create_newevent">Create New event</string>
+    <string name="menu_delete_list">Delete list</string>
+    <string name="menu_create_new_event">Create New Event</string>
+    <string name="menu_open">Open</string>
+    <string name="menu_delete">Delete</string>
+    <string name="send_confirmation">Send Confirmation</string>
+    <string name="menu_about">About</string>
+    <string name="menu_help">Help</string>
+    <string name="send_reply">Send Reply</string>
+    
+    
+    
+    
+</resources>

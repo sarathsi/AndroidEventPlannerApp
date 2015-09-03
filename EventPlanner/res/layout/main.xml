@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<TextView android:layout_width="match_parent" android:text="Event Planner"
+		android:layout_height="wrap_content" android:gravity="center_horizontal"
+		android:paddingBottom="5dip" android:singleLine="true"
+		android:textStyle="bold" android:textSize="20sp" android:textColor="#ffff00"/>
+
+	<TextView android:layout_width="match_parent" android:text="@string/Help_text"
+		android:layout_height="wrap_content" android:gravity="center_horizontal"
+		android:paddingBottom="5dip" android:singleLine="true"
+		android:textStyle="bold" android:textSize="20sp" android:inputType="textMultiLine" />
+
+	<TextView android:layout_width="match_parent" android:text=""
+		android:layout_height="wrap_content" android:paddingBottom="5dip"
+		android:singleLine="true" android:textSize="20sp" />
+
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="match_parent" android:layout_height="wrap_content">
+
+		<Button android:id="@+id/btnStartService" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Events by me"
+			android:gravity="center_horizontal" android:layout_weight="1" />
+
+		<Button android:id="@+id/btnStopService" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Events by others"
+			android:gravity="center_horizontal" android:layout_weight="1" />
+
+	</LinearLayout>
+
+
+	<TextView android:layout_width="match_parent" android:text=""
+		android:layout_height="wrap_content" android:paddingBottom="5dip"
+		android:singleLine="true" android:textSize="20sp" />
+		
+	<Button android:id="@+id/btnCreateNewEvent"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:text="@string/create_newevent" android:textColor="#833"
+		android:textStyle="bold" />
+
+
+</LinearLayout>

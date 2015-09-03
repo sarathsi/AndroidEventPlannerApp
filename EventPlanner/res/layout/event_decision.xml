@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="match_parent" android:layout_height="wrap_content">
+
+		<TextView android:id="@+id/decision_view_heading"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:gravity="center_horizontal" android:paddingBottom="5dip"
+			android:singleLine="true" android:textStyle="bold" android:textSize="24sp"
+			android:textColor="#ffdd00" />
+			
+
+		<!-- event name -->
+		<TextView android:id="@+id/event_name" android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:gravity="center_horizontal"
+			android:paddingBottom="5dip" android:singleLine="true"
+			android:textStyle="bold" android:textSize="24sp" android:textColor="#ffff00" />
+
+		<TextView android:id="@+id/txtParticipants"
+			android:layout_width="match_parent" android:text="Participants"
+			android:layout_height="wrap_content" android:paddingBottom="5dip"
+			android:singleLine="true" android:textStyle="bold" android:textSize="20sp"
+			android:textColor="#ffff00" />
+
+		<TextView android:id="@+id/decision_participant_list"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:paddingBottom="5dip" android:singleLine="false"
+			android:textStyle="bold" android:textSize="22sp" android:textColor="#ffffff"
+			android:gravity="center_horizontal" />
+			
+			
+		<CheckBox android:id="@+id/confirmation_check" android:text="Event is happening"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:textStyle="bold" android:textSize="20sp" />
+
+
+		<!-- Place options -->
+		<TextView android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:text="Place options (votes)"
+			android:textStyle="bold" android:textSize="20sp" android:textColor="#ffff00" />
+
+		<RadioGroup android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:orientation="vertical">
+
+			<RadioButton android:id="@+id/place1_radio"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+			<RadioButton android:id="@+id/place2_radio"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		</RadioGroup>
+
+
+		<!-- date& time options android:gravity="center_horizontal" -->
+		<TextView android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:text="Date-Time options (votes)"
+			android:textStyle="bold" android:textSize="20sp" android:textColor="#ffff00" />
+
+
+		<RadioGroup android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:orientation="vertical">
+
+			<RadioButton android:id="@+id/datetime1_radio"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+			<RadioButton android:id="@+id/datetime2_radio"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		</RadioGroup>
+
+
+		<Button android:id="@+id/btnSendConfirmation"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:text="@string/send_confirmation" android:textColor="#833"
+			android:textStyle="bold" />
+
+
+	</LinearLayout>
+
+</ScrollView>
+

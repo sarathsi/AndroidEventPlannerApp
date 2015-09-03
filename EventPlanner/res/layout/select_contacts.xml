@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+
+
+
+		<TextView android:layout_width="match_parent" android:text="@string/creating_new_event"
+			android:layout_height="wrap_content" android:gravity="center_horizontal"
+			android:paddingBottom="5dip" android:singleLine="true"
+			android:textStyle="bold" android:textSize="22sp" />
+			
+		<TextView android:layout_width="match_parent" android:text="@string/select_participants"
+			android:layout_height="wrap_content" android:gravity="center_horizontal"
+			android:paddingBottom="5dip" android:singleLine="true"
+			android:textStyle="bold" android:textSize="20sp" />
+
+
+			<!-- May be a dimension value, which is a floating point number appended 
+				with a unit such as "14.5sp". Available units are: px (pixels), dp (density-independent 
+				pixels), sp (scaled pixels based on preferred font size), in (inches), mm 
+				(millimeters). -->
+			<EditText android:id="@+id/eTxtContactList"
+				android:layout_width="match_parent" android:layout_height="150px"
+				android:gravity="top"
+				android:editable="false"
+				 />
+
+
+		<LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<Button android:id="@+id/btnOpenContacts"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="@string/open_contacts" android:gravity="center_horizontal"
+				android:layout_weight="1" />
+
+			<Button android:id="@+id/btnClearContacts"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="@string/clear_contacts" android:gravity="center_horizontal"
+				android:layout_weight="1" />
+
+			<Button android:id="@+id/btnSendInvitation"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="@string/send_invitation" android:gravity="center_horizontal"
+				android:layout_weight="1" />
+
+		</LinearLayout>
+
+
+	</LinearLayout>
+
+</ScrollView>
+	

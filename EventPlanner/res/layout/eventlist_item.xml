@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<ImageView android:id="@+id/list_item_icon"
+		 android:layout_width="50dip"
+		android:layout_height="50dip" android:paddingLeft="5dip"
+		android:paddingTop="15dip" android:gravity="center_vertical" />
+
+	 <TextView xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:id="@+id/list_item_text" android:layout_width="fill_parent" 
+		android:layout_height="?android:attr/listPreferredItemHeight" 
+		android:textAppearance="?android:attr/textAppearanceLarge" android:gravity="center_vertical" 
+		android:paddingLeft="5dip" android:textStyle="bold" android:textColor="#ffffff" 
+		android:singleLine="true" /> 
+
+	<!-- <TextView android:id="@+id/text" android:layout_gravity="center_vertical" 
+		android:layout_width="0dip" android:layout_weight="1.0" android:layout_height="wrap_content" 
+		/> android:id="@android:id/text1" -->
+
+<!--
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:paddingLeft="10dp"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+		<TextView android:id="@+id/list_item_text" android:layout_width="fill_parent"
+			android:layout_height="?android:attr/listPreferredItemHeight"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:gravity="center_vertical" android:paddingLeft="5dip"
+			android:textStyle="bold" android:textColor="#ffffff"
+			android:singleLine="true" />
+
+		<TextView android:layout_width="fill_parent" android:id="@+id/detail"
+			android:textColor="#ffffff" android:layout_height="wrap_content"
+			android:text="Testing..." />
+
+	</LinearLayout>
+-->
+
+
+	<!-- TODO - Add arrow symbol at right side -->
+
+	<!-- -->
+
+
+</LinearLayout>
+
+
+
